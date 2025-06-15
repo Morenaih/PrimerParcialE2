@@ -19,3 +19,4 @@ jobs:
           SURGE_DOMAIN: ${{ secrets.SURGE_DOMAIN }}
           SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
         run: surge ./ $SURGE_DOMAIN --token $SURGE_TOKEN
+        
